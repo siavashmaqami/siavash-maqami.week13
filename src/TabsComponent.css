@@ -1,0 +1,35 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tabs{
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+}
+
+.tabs button {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+
+button.active {
+    border-bottom: 2px solid yellow;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 20px;
+    background-color: blue;
+    height: 100vh;
+}
